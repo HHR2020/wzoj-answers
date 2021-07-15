@@ -1,0 +1,5 @@
+a=input()
+month=int(a[10:12])
+day=int(a[12:14])
+print("Birthday is "+str(month)+"/"+str(day))
+# print("Birthday is {}/{}".format(month,day))
