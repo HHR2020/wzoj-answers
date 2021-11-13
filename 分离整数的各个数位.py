@@ -1,3 +1,3 @@
-a=input()
+a = input()
 for i in a[::-1]:
-    print(i,end=' ')
+    print(i, end=" ")

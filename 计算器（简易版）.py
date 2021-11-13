@@ -1,12 +1,12 @@
-a,b=map(int,input().split())
-c=input()
-if c == "+" :
-    print(a+b)
+a, b = map(int, input().split())
+c = input()
+if c == "+":
+    print(a + b)
 elif c == "-":
-    print(a-b)
+    print(a - b)
 elif c == "*":
-    print(a*b)
-elif c == "/" and b != 0 :
-    print(a//b)
-else :
+    print(a * b)
+elif c == "/" and b != 0:
+    print(a // b)
+else:
     print("Error!")

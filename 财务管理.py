@@ -1,7 +1,7 @@
-money=[]
-s=0
+money = []
+s = 0
 for _i in range(12):
     money.append(float(input()))
 for a in money:
-    s+=a
-print("$"+"%.2f"%(s/12))
+    s += a
+print("$" + "%.2f" % (s / 12))

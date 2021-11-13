@@ -1,8 +1,8 @@
-s=input().split()
-a=input()
-b=input()
+s = input().split()
+a = input()
+b = input()
 for item in s:
-    if a==item:
-        print(b,end=" ")
+    if a == item:
+        print(b, end=" ")
     else:
-        print(item,end=" ")
+        print(item, end=" ")

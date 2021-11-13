@@ -1,5 +1,5 @@
-a=list(map(int,input().split()))
-q=0
+a = list(map(int, input().split()))
+q = 0
 for item in a:
-    q+=item
+    q += item
 print(q)

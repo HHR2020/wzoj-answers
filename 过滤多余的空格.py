@@ -1,3 +1,3 @@
-s=input().split()
+s = input().split()
 for item in s:
-    print(item,end=" ")
+    print(item, end=" ")
