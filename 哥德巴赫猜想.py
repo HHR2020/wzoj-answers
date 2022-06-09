@@ -1,4 +1,4 @@
-NMAX = 2 ** 15 + 1
+NMAX = 2**15 + 1
 primes = [True] * (NMAX + 1)
 primes[0] = primes[1] = False
 for i in range(2, NMAX + 1):
